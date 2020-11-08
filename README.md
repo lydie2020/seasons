@@ -1,1 +1,3 @@
-#README
+# maven-project
+
+Simple Maven Project
