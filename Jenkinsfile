@@ -23,4 +23,5 @@ pipeline {
       steps {
        echo "image step"
        sleep 10
- } 
+   }
+ }
