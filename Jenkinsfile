@@ -26,13 +26,8 @@ pipeline {
       steps {
         script {
          docker.build registry + " :$BUILD_NUMBER"
-      }   
-     }   
-     stage ('docker'){
-      steps {
-       echo "image step"
-       sleep 10
+        }
       }
-     }   
-    }
+    }  
   }
+}
